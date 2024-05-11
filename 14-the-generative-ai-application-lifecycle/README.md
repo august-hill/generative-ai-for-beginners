@@ -25,7 +25,7 @@ Notice that in LLMOps, we are more focused in the App Developers, using integrat
 
 - Quality: Response quality
 - Harm: Responsible AI
-- Honesty: Response groundness (Makes sense? It is correct?)
+- Honesty: Response groundedness (Makes sense? Is it correct?)
 - Cost: Solution Budget
 - Latency: Avg. time for token response
 
@@ -35,11 +35,11 @@ First, to understand the lifecycle and the modifications, let's note the next in
 
 ![LLMOps infographic](./images/02-llmops.png?WT.mc_id=academic-105485-koreys)
 
-As you may note, this is different from the usual Lifecycles from MLOps. LLMs have many new requirements, as Prompting, different tecniques to improve quality (Fine-Tuning, RAG, Meta-Prompts), different assessment and responsability with responsible AI, lastly, new evaluation metrics (Quality, Harm, Honesty, Cost and Latency).
+As you may note, this is different from the usual Lifecycles from MLOps. LLMs have many new requirements, as Prompting, different techniques to improve quality (Fine-Tuning, RAG, Meta-Prompts), different assessment and responsability with responsible AI, lastly, new evaluation metrics (Quality, Harm, Honesty, Cost and Latency).
 
 For instance, take a look how we ideate. Using prompt engineering to experiment with various LLMs to explore possibilities to tests if their Hypothesis could be correct.
 
-Note that this is not linear, but integrated loops, iterative and with an overacrching cycle.
+Note that this is not linear, but integrated loops, iterative and with an overarching cycle.
 
 How could we explore those steps? Let's step into detail in how could we build a lifecycle.
 
